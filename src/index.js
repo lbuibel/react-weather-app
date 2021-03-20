@@ -40,7 +40,7 @@ function WeatherApp() {
          <p className="current-temp">{city[0].conditions.feels_like}<span>&#176;</span></p>
          <p>Current Conditions: {city[0].conditions.description}</p>
          <p>Wind Speed: {city[0].wind.speed} mph</p>
-         <p>Humidity: {city[0].conditions.humidity} mph</p>
+         <p>Humidity: {city[0].conditions.humidity}%</p>
        </div>
 
         <div className="forcast">
